@@ -1,6 +1,6 @@
-def call(String message) {
+def call(Map config) {
     node {
-        echo "Your message is: ${Message}"
+        echo "Your message is: ${config.message}"
     }
 }
 
