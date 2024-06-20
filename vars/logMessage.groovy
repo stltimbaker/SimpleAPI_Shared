@@ -1,5 +1,5 @@
-def call(String message) {
+def call() {
     node {
-        echo "Your message is: ${Message}"
+        echo "Your message is: derp"
     }
 }
