@@ -1,5 +1,11 @@
-def call() {
+def call(String message) {
     node {
-        echo "Your message is: derp"
+        echo "Your message is: ${Message}"
+    }
+}
+
+def call(){
+    node {
+        echo "Your message is: EMPTY"
     }
 }
