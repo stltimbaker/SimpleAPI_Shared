@@ -4,6 +4,12 @@ def call(Map config) {
     }
 }
 
+def call(String message) {
+    node {
+        echo "Another message: ${message}"
+    }
+}
+
 def call(){
     node {
         echo "Your message is: EMPTY"
